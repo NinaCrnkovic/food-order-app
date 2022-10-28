@@ -9,7 +9,7 @@ return(
     <React.Fragment>
         <header className={classes.header}>
            <h1>Food Order App</h1> 
-        <HeaderCartButton></HeaderCartButton>
+        <HeaderCartButton onClick={props.onShowCart}/>
         </header>
         <div className={classes['main-image']}>
             <img src={mealsImage} alt="A table full of food!"/>
